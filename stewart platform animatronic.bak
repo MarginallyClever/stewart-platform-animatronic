@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title "ELEC-0132 Stewart Platform Shield"
 Date "2018-06-22"
-Rev "2"
+Rev "3"
 Comp "Marginally Clever Robots, Ltd."
 Comment1 "Dan Royer (dan@marginallyclever.com)"
 Comment2 ""
@@ -384,7 +384,7 @@ U 1 1 5B2D7223
 P 7450 3850
 F 0 "P14" H 7450 4050 50  0000 C CNN
 F 1 "CONN_01X03" V 7550 3850 50  0000 C CNN
-F 2 "" H 7450 3850 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 7450 3850 50  0001 C CNN
 F 3 "" H 7450 3850 50  0000 C CNN
 	1    7450 3850
 	1    0    0    -1  
@@ -638,7 +638,7 @@ U 1 1 5B579C96
 P 5200 5050
 F 0 "P19" H 5200 5150 50  0000 C CNN
 F 1 "CONN_01X01" V 5300 5050 50  0000 C CNN
-F 2 "" H 5200 5050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 5200 5050 50  0001 C CNN
 F 3 "" H 5200 5050 50  0000 C CNN
 	1    5200 5050
 	1    0    0    -1  
@@ -649,7 +649,7 @@ U 1 1 5B579D4D
 P 5200 5600
 F 0 "P20" H 5200 5700 50  0000 C CNN
 F 1 "CONN_01X01" V 5300 5600 50  0000 C CNN
-F 2 "" H 5200 5600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 5200 5600 50  0001 C CNN
 F 3 "" H 5200 5600 50  0000 C CNN
 	1    5200 5600
 	1    0    0    -1  
@@ -660,7 +660,7 @@ U 1 1 5B579DFA
 P 5200 6150
 F 0 "P21" H 5200 6250 50  0000 C CNN
 F 1 "CONN_01X01" V 5300 6150 50  0000 C CNN
-F 2 "" H 5200 6150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 5200 6150 50  0001 C CNN
 F 3 "" H 5200 6150 50  0000 C CNN
 	1    5200 6150
 	1    0    0    -1  
@@ -671,7 +671,7 @@ U 1 1 5B579ECD
 P 5200 6725
 F 0 "P22" H 5200 6825 50  0000 C CNN
 F 1 "CONN_01X01" V 5300 6725 50  0000 C CNN
-F 2 "" H 5200 6725 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 5200 6725 50  0001 C CNN
 F 3 "" H 5200 6725 50  0000 C CNN
 	1    5200 6725
 	1    0    0    -1  
