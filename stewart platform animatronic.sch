@@ -1,0 +1,740 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino
+LIBS:stewart platform animatronic-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "ELEC-0132 Stewart Platform Shield"
+Date "2018-06-22"
+Rev "3"
+Comp "Marginally Clever Robots, Ltd."
+Comment1 "Dan Royer (dan@marginallyclever.com)"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X03 P7
+U 1 1 5B116FD9
+P 9300 1675
+F 0 "P7" H 9300 1875 50  0000 C CNN
+F 1 "CONN_01X03" V 9400 1675 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9300 1675 50  0001 C CNN
+F 3 "" H 9300 1675 50  0000 C CNN
+	1    9300 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P8
+U 1 1 5B11728E
+P 9300 2200
+F 0 "P8" H 9300 2400 50  0000 C CNN
+F 1 "CONN_01X03" V 9400 2200 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9300 2200 50  0001 C CNN
+F 3 "" H 9300 2200 50  0000 C CNN
+	1    9300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P9
+U 1 1 5B117442
+P 9300 2750
+F 0 "P9" H 9300 2950 50  0000 C CNN
+F 1 "CONN_01X03" V 9400 2750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9300 2750 50  0001 C CNN
+F 3 "" H 9300 2750 50  0000 C CNN
+	1    9300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P10
+U 1 1 5B1174D7
+P 9300 3300
+F 0 "P10" H 9300 3500 50  0000 C CNN
+F 1 "CONN_01X03" V 9400 3300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9300 3300 50  0001 C CNN
+F 3 "" H 9300 3300 50  0000 C CNN
+	1    9300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P11
+U 1 1 5B117510
+P 9300 3850
+F 0 "P11" H 9300 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 9400 3850 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9300 3850 50  0001 C CNN
+F 3 "" H 9300 3850 50  0000 C CNN
+	1    9300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P12
+U 1 1 5B11756F
+P 9300 4400
+F 0 "P12" H 9300 4600 50  0000 C CNN
+F 1 "CONN_01X03" V 9400 4400 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9300 4400 50  0001 C CNN
+F 3 "" H 9300 4400 50  0000 C CNN
+	1    9300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P1
+U 1 1 5B117A77
+P 1825 1675
+F 0 "P1" H 1825 1875 50  0000 C CNN
+F 1 "CONN_01X03" V 1925 1675 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1825 1675 50  0001 C CNN
+F 3 "" H 1825 1675 50  0000 C CNN
+	1    1825 1675
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 5B117A7D
+P 1825 2200
+F 0 "P2" H 1825 2400 50  0000 C CNN
+F 1 "CONN_01X03" V 1925 2200 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1825 2200 50  0001 C CNN
+F 3 "" H 1825 2200 50  0000 C CNN
+	1    1825 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P3
+U 1 1 5B117A83
+P 1825 2750
+F 0 "P3" H 1825 2950 50  0000 C CNN
+F 1 "CONN_01X03" V 1925 2750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1825 2750 50  0001 C CNN
+F 3 "" H 1825 2750 50  0000 C CNN
+	1    1825 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P4
+U 1 1 5B117A89
+P 1825 3300
+F 0 "P4" H 1825 3500 50  0000 C CNN
+F 1 "CONN_01X03" V 1925 3300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1825 3300 50  0001 C CNN
+F 3 "" H 1825 3300 50  0000 C CNN
+	1    1825 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P5
+U 1 1 5B117A8F
+P 1825 3850
+F 0 "P5" H 1825 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 1925 3850 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1825 3850 50  0001 C CNN
+F 3 "" H 1825 3850 50  0000 C CNN
+	1    1825 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P6
+U 1 1 5B117A95
+P 1825 4400
+F 0 "P6" H 1825 4600 50  0000 C CNN
+F 1 "CONN_01X03" V 1925 4400 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1825 4400 50  0001 C CNN
+F 3 "" H 1825 4400 50  0000 C CNN
+	1    1825 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Arduino_Uno_Shield XA1
+U 1 1 5B117E51
+P 4800 3000
+F 0 "XA1" V 4900 3000 60  0000 C CNN
+F 1 "Arduino_Uno_Shield" V 4700 3000 60  0000 C CNN
+F 2 "Arduino:Arduino_Uno_Shield" H 6600 6750 60  0001 C CNN
+F 3 "" H 6600 6750 60  0001 C CNN
+	1    4800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5B119C7F
+P 8900 1150
+F 0 "#PWR01" H 8900 900 50  0001 C CNN
+F 1 "GND" H 8900 1000 50  0000 C CNN
+F 2 "" H 8900 1150 50  0000 C CNN
+F 3 "" H 8900 1150 50  0000 C CNN
+	1    8900 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5B119CAD
+P 2200 1125
+F 0 "#PWR02" H 2200 875 50  0001 C CNN
+F 1 "GND" H 2200 975 50  0000 C CNN
+F 2 "" H 2200 1125 50  0000 C CNN
+F 3 "" H 2200 1125 50  0000 C CNN
+	1    2200 1125
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 5B119DAB
+P 2300 1325
+F 0 "#PWR03" H 2300 1175 50  0001 C CNN
+F 1 "+5V" H 2300 1465 50  0000 C CNN
+F 2 "" H 2300 1325 50  0000 C CNN
+F 3 "" H 2300 1325 50  0000 C CNN
+	1    2300 1325
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 5B11A174
+P 8800 1325
+F 0 "#PWR04" H 8800 1175 50  0001 C CNN
+F 1 "+5V" H 8800 1465 50  0000 C CNN
+F 2 "" H 8800 1325 50  0000 C CNN
+F 3 "" H 8800 1325 50  0000 C CNN
+	1    8800 1325
+	0    -1   -1   0   
+$EndComp
+Text Notes 1975 725  0    60   ~ 0
+Input platform
+Text Notes 8400 725  0    60   ~ 0
+Output platform
+NoConn ~ 6100 3250
+NoConn ~ 6100 3350
+NoConn ~ 6100 3450
+NoConn ~ 6100 3550
+NoConn ~ 6100 3650
+NoConn ~ 6100 3750
+NoConn ~ 6100 4050
+NoConn ~ 6100 3950
+NoConn ~ 3500 3950
+NoConn ~ 3500 3850
+NoConn ~ 3500 3750
+NoConn ~ 3500 3650
+NoConn ~ 3500 3250
+NoConn ~ 3500 2250
+NoConn ~ 3500 2350
+NoConn ~ 3500 2050
+NoConn ~ 3500 1950
+$Comp
+L GND #PWR05
+U 1 1 5B11D6FC
+P 3500 3550
+F 0 "#PWR05" H 3500 3300 50  0001 C CNN
+F 1 "GND" H 3500 3400 50  0000 C CNN
+F 2 "" H 3500 3550 50  0000 C CNN
+F 3 "" H 3500 3550 50  0000 C CNN
+	1    3500 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 5B11EED5
+P 4475 5050
+F 0 "#FLG06" H 4475 5145 50  0001 C CNN
+F 1 "PWR_FLAG" H 4475 5230 50  0000 C CNN
+F 2 "" H 4475 5050 50  0000 C CNN
+F 3 "" H 4475 5050 50  0000 C CNN
+	1    4475 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5B11E68D
+P 4475 4950
+F 0 "#FLG07" H 4475 5045 50  0001 C CNN
+F 1 "PWR_FLAG" H 4475 5125 50  0000 C CNN
+F 2 "" H 4475 4950 50  0000 C CNN
+F 3 "" H 4475 4950 50  0000 C CNN
+	1    4475 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P13
+U 1 1 5B120FD4
+P 4275 5000
+F 0 "P13" H 4275 5150 50  0000 C CNN
+F 1 "CONN_01X02" V 4375 5000 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4275 5000 50  0001 C CNN
+F 3 "" H 4275 5000 50  0000 C CNN
+	1    4275 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5B12110F
+P 4800 4950
+F 0 "#PWR08" H 4800 4700 50  0001 C CNN
+F 1 "GND" H 4800 4800 50  0000 C CNN
+F 2 "" H 4800 4950 50  0000 C CNN
+F 3 "" H 4800 4950 50  0000 C CNN
+	1    4800 4950
+	-1   0    0    1   
+$EndComp
+Text Notes 4600 4625 0    60   ~ 0
+Power
+$Comp
+L CONN_01X03 P15
+U 1 1 5B122B4A
+P 7450 4375
+F 0 "P15" H 7450 4575 50  0000 C CNN
+F 1 "CONN_01X03" V 7550 4375 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 7450 4375 50  0001 C CNN
+F 3 "" H 7450 4375 50  0000 C CNN
+	1    7450 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P16
+U 1 1 5B122B50
+P 7450 4900
+F 0 "P16" H 7450 5100 50  0000 C CNN
+F 1 "CONN_01X03" V 7550 4900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 7450 4900 50  0001 C CNN
+F 3 "" H 7450 4900 50  0000 C CNN
+	1    7450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P17
+U 1 1 5B122B56
+P 7450 5450
+F 0 "P17" H 7450 5650 50  0000 C CNN
+F 1 "CONN_01X03" V 7550 5450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 7450 5450 50  0001 C CNN
+F 3 "" H 7450 5450 50  0000 C CNN
+	1    7450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5B122B6A
+P 7050 3200
+F 0 "#PWR09" H 7050 2950 50  0001 C CNN
+F 1 "GND" H 7050 3050 50  0000 C CNN
+F 2 "" H 7050 3200 50  0000 C CNN
+F 3 "" H 7050 3200 50  0000 C CNN
+	1    7050 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 5B122B70
+P 6950 3375
+F 0 "#PWR010" H 6950 3225 50  0001 C CNN
+F 1 "+5V" H 6950 3515 50  0000 C CNN
+F 2 "" H 6950 3375 50  0000 C CNN
+F 3 "" H 6950 3375 50  0000 C CNN
+	1    6950 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P18
+U 1 1 5B122EB1
+P 7450 6000
+F 0 "P18" H 7450 6200 50  0000 C CNN
+F 1 "CONN_01X03" V 7550 6000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 7450 6000 50  0001 C CNN
+F 3 "" H 7450 6000 50  0000 C CNN
+	1    7450 6000
+	1    0    0    -1  
+$EndComp
+Text Notes 7075 3000 0    60   ~ 0
+Extra
+NoConn ~ 6100 1950
+$Comp
+L CONN_01X03 P14
+U 1 1 5B2D7223
+P 7450 3850
+F 0 "P14" H 7450 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 7550 3850 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 7450 3850 50  0001 C CNN
+F 3 "" H 7450 3850 50  0000 C CNN
+	1    7450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 1575 2200 1575
+Wire Wire Line
+	2200 1125 2200 4300
+Wire Wire Line
+	2200 2100 2025 2100
+Wire Wire Line
+	2200 2650 2025 2650
+Connection ~ 2200 2100
+Wire Wire Line
+	2200 3200 2025 3200
+Connection ~ 2200 2650
+Wire Wire Line
+	2200 3750 2025 3750
+Connection ~ 2200 3200
+Wire Wire Line
+	2200 4300 2025 4300
+Connection ~ 2200 3750
+Wire Wire Line
+	2300 4400 2025 4400
+Wire Wire Line
+	2300 1325 2300 4400
+Wire Wire Line
+	2300 3850 2025 3850
+Wire Wire Line
+	2300 3300 2025 3300
+Connection ~ 2300 3850
+Wire Wire Line
+	2300 2750 2025 2750
+Connection ~ 2300 3300
+Wire Wire Line
+	2300 2200 2025 2200
+Connection ~ 2300 2750
+Wire Wire Line
+	2300 1675 2025 1675
+Connection ~ 2300 2200
+Wire Wire Line
+	2800 1775 2800 2650
+Wire Wire Line
+	2800 2650 3500 2650
+Wire Wire Line
+	2700 2300 2700 2750
+Wire Wire Line
+	2700 2750 3500 2750
+Wire Wire Line
+	2700 3400 2700 2950
+Wire Wire Line
+	2700 2950 3500 2950
+Wire Wire Line
+	2800 3050 3500 3050
+Wire Wire Line
+	2800 3050 2800 3950
+Wire Wire Line
+	2900 3150 3500 3150
+Wire Wire Line
+	2900 3150 2900 4500
+Connection ~ 2200 1575
+Connection ~ 2300 1675
+Wire Wire Line
+	9100 1775 8900 1775
+Wire Wire Line
+	8900 1150 8900 4500
+Wire Wire Line
+	8900 2300 9100 2300
+Wire Wire Line
+	8900 2850 9100 2850
+Connection ~ 8900 2300
+Wire Wire Line
+	8900 3400 9100 3400
+Connection ~ 8900 2850
+Wire Wire Line
+	8900 3950 9100 3950
+Connection ~ 8900 3400
+Wire Wire Line
+	8900 4500 9100 4500
+Connection ~ 8900 3950
+Wire Wire Line
+	8800 4400 9100 4400
+Wire Wire Line
+	8800 1325 8800 4400
+Wire Wire Line
+	8800 3850 9100 3850
+Wire Wire Line
+	8800 3300 9100 3300
+Connection ~ 8800 3850
+Wire Wire Line
+	8800 2750 9100 2750
+Connection ~ 8800 3300
+Wire Wire Line
+	8800 2200 9100 2200
+Connection ~ 8800 2750
+Wire Wire Line
+	8800 1675 9100 1675
+Connection ~ 8800 2200
+Wire Wire Line
+	6100 2250 8375 2250
+Wire Wire Line
+	8375 2250 8375 2100
+Wire Wire Line
+	8375 2350 8375 2650
+Wire Wire Line
+	6100 2350 8375 2350
+Connection ~ 8800 1675
+Connection ~ 8900 1775
+Wire Notes Line
+	1325 750  3250 750 
+Wire Notes Line
+	3250 750  3250 4900
+Wire Notes Line
+	3250 4900 1325 4900
+Wire Notes Line
+	1325 4900 1325 750 
+Wire Notes Line
+	7800 750  9725 750 
+Wire Notes Line
+	9725 750  9725 4900
+Wire Notes Line
+	7800 4900 7800 750 
+Wire Notes Line
+	9725 4900 7800 4900
+Wire Wire Line
+	2900 4500 2025 4500
+Wire Wire Line
+	2800 3950 2025 3950
+Wire Wire Line
+	2700 3400 2025 3400
+Wire Wire Line
+	2025 2850 3500 2850
+Wire Wire Line
+	2700 2300 2025 2300
+Wire Wire Line
+	2025 1775 2800 1775
+Wire Wire Line
+	8275 1575 9100 1575
+Wire Wire Line
+	8375 2100 9100 2100
+Wire Wire Line
+	8375 2650 9100 2650
+Wire Wire Line
+	8275 3200 9100 3200
+Wire Wire Line
+	8175 3750 9100 3750
+Wire Wire Line
+	8075 4300 9100 4300
+Wire Wire Line
+	4475 5050 5000 5050
+Wire Wire Line
+	4475 4950 4800 4950
+Wire Notes Line
+	4000 4650 5475 4650
+Wire Notes Line
+	4000 4650 4000 7050
+Wire Wire Line
+	7250 4475 7050 4475
+Wire Wire Line
+	7050 5000 7250 5000
+Wire Wire Line
+	7050 5550 7250 5550
+Connection ~ 7050 5000
+Connection ~ 7050 5550
+Wire Wire Line
+	6950 5450 7250 5450
+Wire Wire Line
+	6950 4900 7250 4900
+Connection ~ 6950 5450
+Wire Wire Line
+	6950 4375 7250 4375
+Connection ~ 6950 4900
+Connection ~ 6950 4375
+Connection ~ 7050 4475
+Wire Wire Line
+	6475 4800 7250 4800
+Wire Wire Line
+	7050 3200 7050 6100
+Wire Wire Line
+	6950 3375 6950 6000
+Wire Wire Line
+	6950 6000 7250 6000
+Wire Wire Line
+	7050 6100 7250 6100
+Wire Wire Line
+	6225 5900 7250 5900
+Wire Wire Line
+	6225 3050 6225 5900
+Wire Wire Line
+	6225 3050 6100 3050
+Wire Wire Line
+	6100 2950 6350 2950
+Wire Wire Line
+	6575 4275 7250 4275
+Wire Wire Line
+	6350 2950 6350 5350
+Wire Wire Line
+	6350 5350 7250 5350
+Wire Notes Line
+	6725 3025 7700 3025
+Wire Notes Line
+	7700 3025 7700 6350
+Wire Notes Line
+	7700 6350 6725 6350
+Wire Notes Line
+	6725 6350 6725 3025
+Wire Wire Line
+	8275 1575 8275 2050
+Wire Wire Line
+	8275 2050 6100 2050
+Wire Wire Line
+	6100 2850 8075 2850
+Wire Wire Line
+	8075 2850 8075 4300
+Wire Wire Line
+	8175 3750 8175 2750
+Wire Wire Line
+	8175 2750 6100 2750
+Wire Wire Line
+	6100 2650 8275 2650
+Wire Wire Line
+	8275 2650 8275 3200
+Wire Wire Line
+	6475 2550 6475 4800
+Wire Wire Line
+	6475 2550 6100 2550
+Wire Wire Line
+	6575 2450 6575 4275
+Wire Wire Line
+	6575 2450 6100 2450
+Wire Wire Line
+	7250 3950 7050 3950
+Connection ~ 7050 3950
+Wire Wire Line
+	7250 3850 6950 3850
+Connection ~ 6950 3850
+Wire Wire Line
+	6675 3750 7250 3750
+Wire Wire Line
+	6675 3750 6675 2150
+Wire Wire Line
+	6675 2150 6100 2150
+NoConn ~ 3500 4050
+Text Notes 9550 4425 0    60   ~ 0
+1\n\n\n\n\n\n2\n\n\n\n\n\n3\n\n\n\n\n\n4\n\n\n\n\n\n5\n\n\n\n\n\n6
+Text Notes 1475 4425 0    60   ~ 0
+6\n\n\n\n\n\n5\n\n\n\n\n\n4\n\n\n\n\n\n3\n\n\n\n\n\n2\n\n\n\n\n\n1
+$Comp
+L CONN_01X01 P19
+U 1 1 5B579C96
+P 5200 5050
+F 0 "P19" H 5200 5150 50  0000 C CNN
+F 1 "CONN_01X01" V 5300 5050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 5200 5050 50  0001 C CNN
+F 3 "" H 5200 5050 50  0000 C CNN
+	1    5200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P20
+U 1 1 5B579D4D
+P 5200 5600
+F 0 "P20" H 5200 5700 50  0000 C CNN
+F 1 "CONN_01X01" V 5300 5600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 5200 5600 50  0001 C CNN
+F 3 "" H 5200 5600 50  0000 C CNN
+	1    5200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P21
+U 1 1 5B579DFA
+P 5200 6150
+F 0 "P21" H 5200 6250 50  0000 C CNN
+F 1 "CONN_01X01" V 5300 6150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 5200 6150 50  0001 C CNN
+F 3 "" H 5200 6150 50  0000 C CNN
+	1    5200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P22
+U 1 1 5B579ECD
+P 5200 6725
+F 0 "P22" H 5200 6825 50  0000 C CNN
+F 1 "CONN_01X01" V 5300 6725 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 5200 6725 50  0001 C CNN
+F 3 "" H 5200 6725 50  0000 C CNN
+	1    5200 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR011
+U 1 1 5B57A0E8
+P 5000 5050
+F 0 "#PWR011" H 5000 4900 50  0001 C CNN
+F 1 "+12V" H 5000 5190 50  0000 C CNN
+F 2 "" H 5000 5050 50  0000 C CNN
+F 3 "" H 5000 5050 50  0000 C CNN
+	1    5000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR012
+U 1 1 5B57A12A
+P 5000 6150
+F 0 "#PWR012" H 5000 6000 50  0001 C CNN
+F 1 "+5V" H 5000 6290 50  0000 C CNN
+F 2 "" H 5000 6150 50  0000 C CNN
+F 3 "" H 5000 6150 50  0000 C CNN
+	1    5000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5B57A16C
+P 5000 5600
+F 0 "#PWR013" H 5000 5350 50  0001 C CNN
+F 1 "GND" H 5000 5450 50  0000 C CNN
+F 2 "" H 5000 5600 50  0000 C CNN
+F 3 "" H 5000 5600 50  0000 C CNN
+	1    5000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5B57A1AE
+P 5000 6725
+F 0 "#PWR014" H 5000 6475 50  0001 C CNN
+F 1 "GND" H 5000 6575 50  0000 C CNN
+F 2 "" H 5000 6725 50  0000 C CNN
+F 3 "" H 5000 6725 50  0000 C CNN
+	1    5000 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG015
+U 1 1 5B57B403
+P 4825 6150
+F 0 "#FLG015" H 4825 6245 50  0001 C CNN
+F 1 "PWR_FLAG" H 4825 6330 50  0000 C CNN
+F 2 "" H 4825 6150 50  0000 C CNN
+F 3 "" H 4825 6150 50  0000 C CNN
+	1    4825 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4825 6150 5000 6150
+Wire Notes Line
+	5475 4650 5475 7050
+Wire Notes Line
+	5475 7050 4000 7050
+$EndSCHEMATC
