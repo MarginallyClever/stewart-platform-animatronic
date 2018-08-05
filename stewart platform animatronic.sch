@@ -36,8 +36,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "ELEC-0132 Stewart Platform Shield"
-Date "2018-06-22"
-Rev "3"
+Date "2018-07-30"
+Rev "4"
 Comp "Marginally Clever Robots, Ltd."
 Comment1 "Dan Royer (dan@marginallyclever.com)"
 Comment2 ""
@@ -829,4 +829,5 @@ NoConn ~ 3500 4050
 NoConn ~ 3500 5650
 NoConn ~ 3500 5750
 NoConn ~ 3500 5850
+NoConn ~ -600 4900
 $EndSCHEMATC
