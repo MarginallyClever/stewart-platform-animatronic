@@ -1,26 +1,31 @@
 #include <Servo.h>
 
+#define NUM_SERVOS  7
+
 // minimum/maximum values read via serial.  customized per-servo.
 // these numbers were tested on a 5v3a power supply and may change with a 5v4a supply.
-int floors  [6] = { 237, 115, 231, 111, 112, 109 };
-int ceilings[6] = { 492, 358, 502, 362, 351, 356 };
+int floors  [NUM_SERVOS] = { 0, 0, 0, 0, 0, 0, 0 };
+int ceilings[NUM_SERVOS] = { 670, 670, 670, 670, 670, 670, 670, };
+int outputPins[NUM_SERVOS] = { 2, 4, 5, 8, 9, 10, 3 };
 
-Servo a[6];
+
+
+
+Servo a[NUM_SERVOS];
 
 void setup() {
-  a[0].attach(4);
-  a[1].attach(5);
-  a[2].attach(6);
-  a[3].attach(7);
-  a[4].attach(8);
-  a[5].attach(9);
-
   Serial.begin(57600);
-  Serial.println("\n** BEGIN **");
+  Serial.println("\n** SETUP **");
+
+  for(int i=0;i<NUM_SERVOS;++i) {
+    a[i].attach(outputPins[i]);
+  }
+
+  Serial.println("\n** LOOP **");
 }
 
 void loop() {
-  for(int i=0;i<6;++i) {
+  for(int i=0;i<NUM_SERVOS;++i) {
     int j = analogRead(i);
     float f = map(j,floors[i],ceilings[i],10,170);
     //float f = (float)j * 180.0/1024.0;
